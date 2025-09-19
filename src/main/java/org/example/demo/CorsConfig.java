@@ -21,7 +21,7 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         // Apply CORS settings to all endpoints (e.g., /students, /login, etc.)
 
-                        .allowedOrigins("http://localhost:5173")
+                        .allowedOrigins("https://f-react-production.up.railway.app/")
                         //  Allow requests from your React app running on port 5174
                         // Make sure there is NO trailing slash and NO leading/trailing space
 
