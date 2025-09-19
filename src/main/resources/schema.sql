@@ -1,0 +1,1 @@
+create table IF not exists student(name varchar(100) not null, course varchar(100) not null);
